@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*让内容往里走*/
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    /*清除移动端tap点击断的高亮度效果*/
+    -webkit-tap-highlight-color: transparent;
+}
+ol,ul{
+    list-style: none;
+}
+input,textarea{
+    /*清除在ios端的非扁平化效果*/
+    -webkit-appearance:none;
+    border:0;
+    outline:none;
+}
+a{
+    text-decoration: none;
+    color: #666;
+}
+body{
+    font-family: 'Microsoft Yahei','sans-serif';
+    font-size: 12px;
+    color: #000;
+  /*position: relative;*/
+}
+.clearfix::before,
+.clearfix::after
+{
+    content:'';
+    height:0;
+    line-height:0;
+    visibility: hidden;
+    display: block;
+    clear: both;
+}
