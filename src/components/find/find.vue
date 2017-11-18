@@ -3,6 +3,7 @@
     <section class="langren_header">
       <div style="font-size: 30px">{{fir}}</div>
       <img src="../../assets/n-home.png" alt="">
+      <img src="../../assets/n-home.png" alt="">
     </section>
     <section class="langren_content"></section>
     <section class="langren_footer"></section>
