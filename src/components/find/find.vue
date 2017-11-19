@@ -5,6 +5,7 @@
       <img src="../../assets/n-home.png" alt="">
       <img src="../../assets/n-home.png" alt="">
       <img src="../../assets/n-home.png" alt="">
+      <p>{{sx}}</p>
     </section>
     <section class="langren_content"></section>
     <section class="langren_footer"></section>
@@ -27,6 +28,7 @@
     data(){
       return{
         fir:'我是 发现  善良  真诚  信念  职责 执着 热爱 ',
+          sx:'我叫农大宽  我来了',
 
        kuan:'发现页面',
         header:'其实还是很简单的',
